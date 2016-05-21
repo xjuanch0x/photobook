@@ -37,6 +37,8 @@ group :development, :test do
   gem 'byebug'
 end
 
+
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -50,3 +52,6 @@ gem 'paperclip', '~> 4.3', '>= 4.3.2'
 
 gem 'foundation-rails', '~> 5.5', '>= 5.5.3.2'
 
+gem 'devise', '~> 4.1', '>= 4.1.0'
+
+gem 'letter_opener', '~> 1.4', '>= 1.4.1'
