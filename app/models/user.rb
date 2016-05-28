@@ -8,5 +8,7 @@ class User < ActiveRecord::Base
   def name
     firstname + ' ' + lastname
   end
-  
+  validates :firstname, presence: true, length: { minimum: 1}
+  validates :lastname, presence: true, length: { minimum: 1}
+  validates :username, presence: true, length: { minimum: 5}
 end
